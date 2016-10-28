@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ColoredButtonTheme" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorControlHighlight">@color/colorYellow</item>
+        <item name="colorButtonNormal">@color/colored_button</item>
+    </style>
+
+    <style name="ColoredButtonStyle">
+        <item name="android:theme">@style/ColoredButtonTheme</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

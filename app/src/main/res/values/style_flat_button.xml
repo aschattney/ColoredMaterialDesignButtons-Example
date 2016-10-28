@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FlatButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="FlatButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:theme">@style/FlatButtonTheme</item>
+        <item name="android:textColor">@color/flat_button_color</item>
+    </style>
+
+</resources>

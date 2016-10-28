@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Button Examples</string>
+    <string name="action_settings">Settings</string>
+    <string name="colored_button">Colored</string>
+    <string name="reset_button">Reset</string>
+    <string name="flat_button">Flat</string>
+    <string name="imageview">ImageView</string>
+</resources>

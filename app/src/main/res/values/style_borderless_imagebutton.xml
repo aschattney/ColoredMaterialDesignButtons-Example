@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BorderlessButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:tint">@color/borderless_button</item>
+    </style>
+
+    <style name="BorderlessButton">
+        <item name="android:theme">@style/BorderlessButtonTheme</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_marginLeft">@dimen/borderless_imagebutton_margin</item>
+        <item name="android:layout_marginRight">@dimen/borderless_imagebutton_margin</item>
+    </style>
+
+</resources>
